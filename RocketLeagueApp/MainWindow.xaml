@@ -31,12 +31,21 @@
                        Foreground="White"
                        FontSize="22"/>
 
-            <StackPanel Grid.Row="1">
-                
-            </StackPanel>
+            <StackPanel Grid.Row="1"
+                        Grid.Column="1"/>
+            <TextBlock Text="Enter Player Username: " 
+                       Margin="0,130,0,-130"
+                       FontSize="20"/>
+            <TextBox Name="Enter Name" Width="200"
+                     Height="30"
+                     Margin="216,130,-116,-85"/>
+            <Button Content="Click for results" 
+                    Margin="0,185,0,-130"
+                    Width="100"
+                    />
 
         </Grid>
-        
+
     </Border>
-    
+
 </Window>
